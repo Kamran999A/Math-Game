@@ -211,7 +211,7 @@ namespace ConsoleApp1
                         "for a total of {2}%.", userScore, totalProblems, percentCorrect);
 
                 Console.SetCursorPosition(22, 13);
-                    Console.Write("Press 'q' to quit, or any other key to continue... ");
+                    Console.Write("Press any key to continue... ");
                     if (Console.ReadKey().Key == ConsoleKey.Q) quit = true;
 
                 var letterGrade =
